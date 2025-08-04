@@ -14,7 +14,7 @@ function Header() {
     setIsopen(!Isopen)
   }
   return (
-    <div className='flex gap-3 items-center justify-between md: mx-auto px-10 h-16 w-full bg-[#d4a373] '>
+    <div className='fixed top-0 left-0 flex gap-3 items-center justify-between md: mx-auto px-10 h-16 w-full z-50 bg-[#d4a373] '>
       <div>
         <h1 className='text-white font-bold text-3xl'>Coffee.</h1>
       </div>
